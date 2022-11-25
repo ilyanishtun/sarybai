@@ -7,6 +7,26 @@
     <title>САРЫБАЙ, 5</title>
 
     <style type="text/css">
+
+    @font-face {
+  font-family: "gilroy";
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("gilroy"), 
+       /* Если не получилось, загрузит woff2 */
+       url("/sarybai/fonts/gilroy.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("/sarybai/fonts/gilroy.woff") format("woff");
+}
+    @font-face {
+  font-family: "Neutral Face";
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Neutral Face"), 
+       /* Если не получилось, загрузит woff2 */
+       url("/sarybai/fonts/Neutral Face.woff2") format("woff2"),
+       url("/sarybai/fonts/Neutral Face.woff") format("woff"),
+       url("/sarybai/fonts/Neutral Face.eot") format("eot"),
+       url("/sarybai/fonts/Neutral Face.ttf") format("ttf");
+}
         
         A {
          text-decoration: none; /* Убирает подчеркивание для ссылок */
@@ -33,23 +53,21 @@ style="width: 95%;"
 >
 <tr>
     <td id="6" width="250">
-    <font size="6" 
-    style="font-family: Neutral Face;"
-    >САРЫБАЙ 5</font>
+    <font size="6" face="Neutral Face">САРЫБАЙ 5</font>
     </td>
     <td width="70"></td>
-    <td width="" align="center"><font size="2" face="Gilroy"><a href="#1">О нас</a></font></td>
+    <td width="" align="center"><font size="2" face="gilroy"><a href="#1">О нас</a></font></td>
     <td width="40"></td>
-    <td width=""align="center"><font size="2" face="Gilroy"><a href="#2">Жильцы</a></font></td>
+    <td width=""align="center"><font size="2" face="gilroy"><a href="#2">Жильцы</a></font></td>
     <td width="40"></td>
-    <td width=""align="center"><font size="2" face="Gilroy"><a href="#3">Хозяева</a></font></td>
+    <td width=""align="center"><font size="2" face="gilroy"><a href="#3">Хозяева</a></font></td>
     <td width="40"></td>
-    <td width=""align="center"><font size="2" face="Gilroy"><a href="#4">Челенджи</a></font></td>
+    <td width=""align="center"><font size="2" face="gilroy"><a href="#4">Челенджи</a></font></td>
     <td width="40"></td>
-    <td width=""align="center"><font size="2" face="Gilroy"><a href="#5">Как нас найти</a></font></td>
+    <td width=""align="center"><font size="2" face="gilroy"><a href="#5">Как нас найти</a></font></td>
     <td width="70"></td>
     <td width="250" valign="middle"
-    align="right" ><font size="2" face="Gilroy">Алматы, Сарбайская 5
+    align="right" ><font size="2" face="gilroy">Алматы, Сарбайская 5
         <br> +77058141738</font>
     </td>
 </tr>
@@ -68,7 +86,7 @@ style="width: 95%;">
     <td width="20"> </td>
     
     <td><font size="7" face="Neutral Face"><p>Место, где <br> хочется жить</font>
-    <font face="Gilroy" size="2"><br>
+    <font face="gilroy" size="2"><br>
         <p
         style="line-height: 14px;">
         Это место примет всех. Если ты бежишь, или прячешься от мобилизации - это место идеально подойдет для тебя. Двухэтажный современный дом с тремя спальнями, сауной и раздельным санузлом! А еще в этом доме есть подвал и дверь на улицу со второго этажа, если у тебя больше нет сил.</p></font>
@@ -98,14 +116,14 @@ style="width: 95%;">
         <br>
         <img src="img/about.jpg"
            width="100%"> 
-           <figcaption><font size="2" face="Gilroy">Огород, в котором можно найти все</font></figcaption>
+           <figcaption><font size="2" face="gilroy">Огород, в котором можно найти все</font></figcaption>
     </td>
     <td width="20"> </td>
     <td width="48.7%">
         <br>
         <img src="img/about1.jpg"
          width="100%">
-         <figcaption><font size="2" face="Gilroy">Бассейн, который лежит в комнате</font></td></figcaption>
+         <figcaption><font size="2" face="gilroy">Бассейн, который лежит в комнате</font></td></figcaption>
     </td>
 </tr>
 </table>
@@ -154,22 +172,22 @@ style="width: 95%;">
     <tr>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">НАТАЛЬЯ</font><br>
-            <font size="2" face="Gilroy">Очень вкусно готовит </font>
+            <font size="2" face="gilroy">Очень вкусно готовит </font>
         </td>
         <td width="20"></td>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">ПАВЕЛ</font><br>
-            <font size="2" face="Gilroy">Никто его никогда не видел</font>
+            <font size="2" face="gilroy">Никто его никогда не видел</font>
         </td>
         <td width="20"></td>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">АНАСТАСИЯ</font><br>
-            <font size="2" face="Gilroy">Благодаря ей мы в Казастане</font>
+            <font size="2" face="gilroy">Благодаря ей мы в Казастане</font>
         </td>
         <td width="20"></td>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">ДЕН</font> <br>
-            <font size="2" face="Gilroy">Лучше всех знает Уральск</font>
+            <font size="2" face="gilroy">Лучше всех знает Уральск</font>
         </td>
     </tr>
 </table>
@@ -209,22 +227,22 @@ style="width: 95%;">
     <tr>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">ТЕТЯ ЛЮДА</font><br>
-            <font size="2" face="Gilroy">Живет в этих местах уже 50 лет</font>
+            <font size="2" face="gilroy">Живет в этих местах уже 50 лет</font>
         </td>
         <td width="20"></td>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">ДЯДЯ САША</font><br>
-            <font size="2" face="Gilroy">Отец, виноградарь, строитель и охотник</font>
+            <font size="2" face="gilroy">Отец, виноградарь, строитель и охотник</font>
         </td>
         <td width="20"></td>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">ГОША</font><br>
-            <font size="2" face="Gilroy">Знает все про туризм в Казастане</font>
+            <font size="2" face="gilroy">Знает все про туризм в Казастане</font>
         </td>
         <td width="20"></td>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">ЕВРИК</font> <br>
-            <font size="2" face="Gilroy">Лучше всех виляет хвостиком и знает команды</font>
+            <font size="2" face="gilroy">Лучше всех виляет хвостиком и знает команды</font>
         </td>
     </tr>
 </table>
@@ -257,12 +275,12 @@ style="width: 95%;">
     <tr>
         <td width="291" style="line-height: 25px;">
             <font size="3" face="Neutral Face">АНТОН</font><br>
-            <font size="2" face="Gilroy">Готовит отличные завтраки</font>
+            <font size="2" face="gilroy">Готовит отличные завтраки</font>
         </td>
         <td width="20"></td>
         <td style="line-height: 25px;">
             <font size="3" face="Neutral Face">ИЛЬЯ</font><br>
-            <font size="2" face="Gilroy">Знает как регулировать газ</font>
+            <font size="2" face="gilroy">Знает как регулировать газ</font>
         </td>
     </tr>
 </table>
@@ -302,7 +320,7 @@ style="width: 95%;">
     </tr>
 </table>
 <table
-border="0"
+border="1"
 align="center"
 style="width: 95%;">
 <tr>
@@ -313,12 +331,12 @@ style="width: 95%;">
     <td width="20"> </td>
     
     <td><font size="4" face="Neutral Face">Алматы, Малая станица, ул. Сарбайская 5</font>
-    <font face="Gilroy" size="2"><br>
+    <font face="gilroy" size="2"><br>
         <p
         style="line-height: 14px;">
         Малая станица — это один из районов города, у которого нет четких границ, но его знает каждый коренной алматинец. Условные границы Малой станицы — квадрат улиц Шақшақ Жәнібек, бывшая Добролюбова — Рыскулова — правобережья Малой Алматинки — реки Жарбулак.</p></font>
     </td>
-    <td width="150"></td>
+    <td width="200"></td>
 </tr>
 </table>
 <br>
@@ -336,7 +354,7 @@ style="width: 100%;">
         <td width="320" >
             <font size="6" face="Neutral Face">САРЫБАЙ 5</font>
             <br>
-            <font face="Gilroy" size="2"><br>
+            <font face="gilroy" size="2"><br>
                 <p
                 style="line-height: 14px;">
                 Малая станица — это один из районов города, у которого нет четких границ, но его знает каждый коренной алматинец. Условные границы Малой станицы — квадрат улиц Шақшақ Жәнібек, бывшая Добролюбова — Рыскулова — правобережья Малой Алматинки — реки Жарбулак.</p></font>
@@ -345,7 +363,7 @@ style="width: 100%;">
         </td>
         <td style="vertical-align: middle">
             <font size="3" face="Neutral Face"><a href="#6">ДОМ</a></font>
-            <font face="Gilroy" size="2"><br><br>
+            <font face="gilroy" size="2"><br><br>
                 <p
                 style="line-height: 20px;">
                 <a href="#1">О нас</a>
