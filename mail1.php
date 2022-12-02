@@ -1,4 +1,4 @@
-<meta http-equiv='refresh' content='3; url=https://ilyanishtun.github.io/sarybai/'>
+<meta http-equiv='refresh' content='3; url='https://ilyanishtun.github.io/sarybai/'>
 <meta charset="UTF-8" />
 <?php
 
@@ -28,7 +28,7 @@
 	$send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = UTF-8\r\nFrom:$email");//собственно сам вызов функции отправки сообщения на сервере
 
 	if ($send) //проверяем, отправилось ли сообщение
-		echo "Сообщение отправлено успешно! Перейти на <a href='https://ilyanishtun.github.io/sarybai/'>https://ilyanishtun.github.io/sarybai/</a>, если вас не перенаправило вручную.";
+		echo "Сообщение отправлено успешно! Перейти на <a  если вас не перенаправило вручную.";
 	else 
 		echo "Ошибка, сообщение не отправлено! Возможно, проблемы на сервере";
 		 
