@@ -37,10 +37,10 @@
         
 .head{
     position: fixed;
-    top: 0;
+    top: 0px;
     background-color: white;
+    padding: 25px 0px;
     width: 100%;
-    padding: 20px 0px;
 }
 
         A {
@@ -157,14 +157,14 @@ input[type=submit]:hover {
 }
 .custom-checkbox:checked+label::before {
   border-color: #000000;
-  background-image: url(/img/vector2.svg);
+  background-image: url(img/vector2.svg);
 
 
 }
 /* стили при наведении курсора на checkbox */
 .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
   border-color: #000000;
-  /*background-image: url(/img/vector2.svg);
+  /*background-image: url(img/vector2.svg);
 }
 /* стили для активного состояния чекбокса (при нажатии на него) */
 .custom-checkbox:not(:disabled):active+label::before {
@@ -178,15 +178,13 @@ input[type=submit]:hover {
 <body>
     <br>
 <table
-align="center"
-border="0"
-style="width: 95%;"
->
+border="0">
 <tr class="head">
+    <td style="width: 2%;"></td>
     <td id="6" width="250">
     <font size="6" face="Neutral Face">САРЫБАЙ 5</font>
     </td>
-    <td width="70"></td>
+    <td width="85px"></td>
     <td width="" align="center"><font size="2%" face="gilroy"><a href="#1">О нас</a></font></td>
     <td width="40"></td>
     <td width=""align="center"><font size="2%" face="gilroy"><a href="#2">Жильцы</a></font></td>
@@ -197,13 +195,14 @@ style="width: 95%;"
     <td width="40"></td>
     <td width=""align="center"><font size="2%" face="gilroy"><a href="#5">Как нас найти</a></font></td>
     <td width="70"></td>
-    <td width="250" valign="middle"
+    <td style="right:0px;
+    width: 275px;"
     align="right" ><font size="2" face="gilroy">Алматы, Сарбайская 5
         <br> +77058141738</font>
     </td>
 </tr>
 </table>
-
+<br><br>
 <table
 border="0"
 align="center"
