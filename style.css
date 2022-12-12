@@ -55,12 +55,12 @@ img {
 
   .head-box {
   height: 53px;
-  max-width: 1425px;
+  max-width: 1440px;
   margin-top: 52px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .logo {
@@ -79,7 +79,7 @@ img {
   max-width: 715px;
   height: 24px;
   text-align: center;
-  margin-left: 113px;
+  margin-left: 110px;
   font-family: Gilroy, sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -91,15 +91,20 @@ img {
   margin-top: -110px;
 }
 
+.anchor-santa {
+  height: 25px;
+  margin-top: -25px;
+}
+
 
 .punkt {
-  padding-right: 60px;
+  padding-right: 55px;
   align-items: center;
   font-weight: 400;
 }
 
 .punkt-santa {
-  padding-right: 60px;
+  padding-right: 55px;
   align-items: center;
   color: #F3272A;
   font-weight: 500;
@@ -136,7 +141,126 @@ line-height: 22px;
 .home {
   margin-top: 151px;
 }
+
+.santa-name {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  margin-top: 100px;
+  padding-left: 40px;
+  margin-bottom: 50px;
+  font-family: Neutral Face, sans-serif;
+  font-size: 38px;
+  line-height: 40px;
+}
+
+.img-box {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.santa-img {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.podarki {
+  font-family: Neutral Face, sans-serif;
+  margin-left: 40px;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.santa-presents-box {
+  max-width: 1440px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.santa-presents {
+  width: 920px;
+  display: inline-block;
+}
+
+.present {
+  display: inline-block;
+  width: 210px;
+  height: 54px;
+  text-align: center;
+  line-height: 54px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: #F4F3F3;
+  color: #1E1E1E;
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.send-text {
+  font-family: Neutral Face, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.santa-send {
+  float: right;
+  text-align: center;
+}  
+
+  textarea[type=present-text] {
+    width: 389px;
+    height: 100px;
+    padding-top: 20px;
+    font-family: Gilroy, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;   
+    color: #000000;
+    border: none;
+    border-bottom-style: solid;
+    border-color: #7C7979;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+
+/* КНОПКА */
+ 
+button {
+  margin-top: 15px;
+  width: 389px;
+  height: 51px;
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+ 	border: none;
+ 	color: #ffffff;
+ 	background: #F3272A;
+  tansition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear; 	
+
   
+}
+button:hover {
+  color: #fff;
+  background: rgb(0, 0, 0);
+  tansition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear; 
+  
+}
+
+
+ 
           A {
            text-decoration: none; /* Убирает подчеркивание для ссылок */
           } 
@@ -188,8 +312,6 @@ line-height: 22px;
       border-width: 1px;
       border-bottom-style: solid;
       border-color: #7C7979;
-      
-      
   }
   
   /* Add margins to the checkbox */
@@ -216,6 +338,22 @@ line-height: 22px;
       margin: 20px 0;
       
   }
+
+  input[type=send] {
+    color: rgb(0, 0, 0);
+    border: 1;
+    border-color: rgb(0, 0, 0);
+    width: 251px;
+    height: 20px;
+    line-height: 2px;
+    border-width: thin;
+    background-color: #ac1212bf;
+    font-family: gilroy;
+    font-size: 12px;
+    margin: 20px 0;
+    
+}
+
   
   
   input[type=submit]:hover {
@@ -252,7 +390,6 @@ line-height: 22px;
   .custom-checkbox:checked+label::before {
     border-color: #000000;
     background-image: url(img/vector2.svg);
-  
   
   }
   /* стили при наведении курсора на checkbox */
