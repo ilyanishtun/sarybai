@@ -216,20 +216,21 @@ line-height: 22px;
   text-align: center;
 }  
 
-  textarea[type=present-text] {
-    width: 389px;
-    height: 100px;
-    padding-top: 20px;
-    font-family: Gilroy, sans-serif;
-    font-size: 16px;
-    line-height: 19px;
-    font-weight: 400;   
-    color: #000000;
-    border: none;
-    border-bottom-style: solid;
-    border-color: #7C7979;
-    border-width: 1px;
-    box-sizing: border-box;
+textarea[type="present-text"]:focus { outline: none; }
+textarea[type=present-text] {
+  width: 389px;
+  height: 100px;
+  padding-top: 20px;
+  font-family: Gilroy, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;   
+  color: #000000;
+  border: none;
+  border-bottom-style: solid;
+  border-color: #7C7979;
+  border-width: 1px;
+  box-sizing: border-box;
 }
 
 
