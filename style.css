@@ -181,12 +181,13 @@ line-height: 22px;
 }
 .santa-presents-box {
   max-width: 1360px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 40px;
+  margin-right: 40px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   max-height: 605px;
+  mar
   
 }
 
@@ -194,7 +195,6 @@ line-height: 22px;
   width: 925px;
   display: flex;
   flex-flow: wrap;
-  
 }
 
 .present {
