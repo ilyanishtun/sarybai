@@ -43,6 +43,11 @@ img {
          url("fonts/Neutral Face.ttf") format("ttf");
   }
 
+  @media screen and (max-width: 320px) {
+    img {
+        width: 100%;
+    }
+}
 
 .header {
   width: 100%;
@@ -231,6 +236,7 @@ textarea[type=present-text] {
   border-color: #7C7979;
   border-width: 1px;
   box-sizing: border-box;
+  resize: none;
 }
 
 
