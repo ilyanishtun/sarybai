@@ -193,9 +193,11 @@ line-height: 22px;
 
 .santa-presents {
   width: 925px;
+  height: 570px;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  background-color: aqua;
 
 }
 
