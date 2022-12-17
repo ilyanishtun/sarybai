@@ -197,7 +197,6 @@ line-height: 22px;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  background-color: aqua;
 
 }
 
@@ -206,8 +205,8 @@ line-height: 22px;
   display: flex;  
   width: 220px;
   height: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
   align-items: center;
   line-height: 17px;
