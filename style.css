@@ -147,7 +147,7 @@ line-height: 22px;
   margin-top: 151px;
 }
 
-.santa-name {
+.chapter-name {
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
@@ -187,8 +187,6 @@ line-height: 22px;
   flex-direction: column;
   flex-wrap: wrap;
   height: 715px;
-
-  
 }
 
 .santa-presents {
@@ -197,7 +195,6 @@ line-height: 22px;
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-
 }
 
 .present {
@@ -301,7 +298,71 @@ button:hover {
   padding-bottom: 10px;
 }
 
- 
+.santa-presents-box {
+  width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+.content-box {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+
+.card-title {
+  font-family: Gilroy, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card-title-right {
+  text-align: center;
+}
+
+.card-img-top {
+  border-radius: 0;
+
+}
+
+.card-body {
+  padding-left: 0;
+  
+}
+
+.carousel-inner{
+height: 700px;
+}
+
+.carousel-indicators {
+  top: 660px;
+}
+
+.card {
+  border-style: none;
+}
+
+.img-left {
+  width: 660px;
+  height: 660px;
+}
+
+
+.img-right {
+  margin-left: 8px;
+  width: 660px;
+  height: 660px;
+}
+
+.about {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
           A {
            text-decoration: none; /* Убирает подчеркивание для ссылок */
           } 
