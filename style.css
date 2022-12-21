@@ -55,6 +55,7 @@ img {
   box-sizing: border-box;
   position: fixed;
   top: 0;
+  z-index: 9999;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -385,6 +386,7 @@ height: 700px;
           .send {
               width: 10%;
               vertical-align:text-top;
+              border-style: dashed;
           }
   
           .down2 {
@@ -421,7 +423,8 @@ height: 700px;
       font-family: gilroy;
       font-size: 10px;
       font-weight: 400px;
-      margin: 230px 0;
+      margin-top: 10px;
+      margin-bottom: 20px;
       color: #838383;
   }
   
@@ -445,11 +448,11 @@ height: 700px;
     color: rgb(0, 0, 0);
     border: 1;
     border-color: rgb(0, 0, 0);
-    width: 251px;
-    height: 20px;
+    width: 271px;
+    height: 32px;
     line-height: 2px;
     border-width: thin;
-    background-color: #ac1212bf;
+    background-color: #E0E0E0;
     font-family: gilroy;
     font-size: 12px;
     margin: 20px 0;
@@ -460,8 +463,10 @@ height: 700px;
   
   input[type=submit]:hover {
       opacity: 0.8;
-      vertical-align: text-bottom;
       color: #91918f ;
+      height: 32px;
+      width: 271px;
+      line-height: 2px;
   }
   .custom-checkbox {
     position: absolute;
